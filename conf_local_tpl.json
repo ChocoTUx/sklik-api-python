@@ -1,0 +1,14 @@
+{
+    "token": {
+        "default": "token"
+    },
+    "users": {
+        "_default": "just note - like name of account",
+        "default": 123456 
+    },
+    "url": {
+        "xml": "https://api.sklik.cz/drak/RPC2",
+        "json": "https://api.sklik.cz/drak/json"
+    }
+
+}
