@@ -1,7 +1,9 @@
 ﻿'''
 Request what havent any category or are somehow special
 '''
-from setup import Api, Root
+import sys
+sys.path.append('..')
+from src.setup import Api, Root
 
 class Client:
     '''

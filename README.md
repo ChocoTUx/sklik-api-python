@@ -11,9 +11,15 @@ Více o Sklik API zde: http://api.sklik.cz/drak/
 Je třeba akorát vyplnit údaje v konfiguračním souboru a ten přejmenovat na conf_local.json
 
 # Version
-v1.0.0
+v2.0.0
 
 # Changelog
+v2.0.0
+* Add file system for files
+* Add new queries
+* Add monkey patch (replace some methods from xmlrpc.client for long int in xml protocol)
+* Add anonymizer (remove all sensitive data from files and restore config data source to default)
+
 v1.0.0
 * Init of project
 

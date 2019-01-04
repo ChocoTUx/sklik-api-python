@@ -4,7 +4,7 @@ from requests import post
 from datetime import datetime
 import ssl
 import json
-import xmlrpc_client_monkeypatch
+import src.xmlrpc_client_monkeypatch
 
 class Root():
         '''
@@ -31,7 +31,7 @@ class Root():
                 '''
                 Load config file where are information about account    
                 '''
-                with open('./conf_local.json') as f:
+                with open('./../src/conf_local.json') as f:
                         self.config = json.load(f)
 
         def get_token(self)-> str:
